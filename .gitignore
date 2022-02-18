@@ -1,0 +1,6 @@
+**/node_modules
+.idea
+repos.csv
+repos.json
+gh-raw.txt
+output/

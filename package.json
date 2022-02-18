@@ -1,0 +1,16 @@
+{
+  "name": "dci-github-repo-grabber",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "./get_repo_list.sh && node parse.mjs"
+  },
+  "author": "Franco Speziali",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "jsonexport": "^3.2.0",
+    "node-jq": "^2.1.0"
+  },
+  "type": "module"
+}
